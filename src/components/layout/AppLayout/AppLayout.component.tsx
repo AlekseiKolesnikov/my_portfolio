@@ -6,7 +6,7 @@ import { AppFooter } from "../AppFooter/AppFooter.component.tsx";
 export const AppLayout = () => {
 
     return (
-       <div className="wrapper">
+       <div className="wrapper center-column-top-flex">
          <AppHeader/>
          <AppContent/>
          <AppFooter/>

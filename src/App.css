@@ -19,6 +19,7 @@ body {
 body {
     overflow: hidden;
     z-index: 0;
+    background: white;
 }
 
 nav,

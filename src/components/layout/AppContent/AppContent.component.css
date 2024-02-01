@@ -1,0 +1,5 @@
+.content-wrapper {
+    padding: 60px 0;
+    width: 1000px;
+    height: calc(100vh - 60px);
+}

@@ -1,12 +1,12 @@
 import './App.css'
-import { AppLayout } from "./components/AppLayout/AppLayout.component.tsx";
+import { AppLayout } from "./components/layout/AppLayout/AppLayout.component.tsx";
 
 function App() {
-  return (
-    <>
-      <AppLayout/>
-    </>
-  )
+    return (
+        <>
+            <AppLayout/>
+        </>
+    )
 }
 
 export default App
