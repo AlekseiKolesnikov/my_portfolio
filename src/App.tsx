@@ -1,8 +1,10 @@
 import './App.css'
+import { AppLayout } from "./components/AppLayout/AppLayout.component.tsx";
 
 function App() {
   return (
     <>
+      <AppLayout/>
     </>
   )
 }
