@@ -1,4 +1,4 @@
-import './AppFooter.component.css'
+import './AppFooter.css'
 
 export const AppFooter = () => {
 

@@ -1,5 +1,5 @@
 import './App.css'
-import { AppLayout } from "./components/layout/AppLayout/AppLayout.component.tsx";
+import { AppLayout } from "./components/layout/AppLayout/AppLayout.tsx";
 
 function App() {
     return (

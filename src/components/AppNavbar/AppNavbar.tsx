@@ -1,4 +1,4 @@
-import './AppNavbar.component.css'
+import './AppNavbar.css'
 import { Link } from "react-router-dom";
 
 export const AppNavbar = () => {

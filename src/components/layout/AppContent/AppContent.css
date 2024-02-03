@@ -1,5 +1,5 @@
 .content-wrapper {
-    padding: 60px 0;
-    width: 1000px;
+    width: 900px;
     height: calc(100vh - 60px);
+    margin-top: 60px;
 }
