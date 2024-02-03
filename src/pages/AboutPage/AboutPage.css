@@ -1,0 +1,4 @@
+.about-page-wrapper {
+    width: 1000px;
+    height: calc(100vh - 60px);
+}
