@@ -21,6 +21,18 @@
 
     h1 {
         font: var(--super-heading-text);
+
+        .greetings {
+            font: var(--main-text-bold);
+        }
+
+        .developer {
+            font: var(--heading-text);
+
+            span {
+                color: dodgerblue;
+            }
+        }
     }
 
     p {

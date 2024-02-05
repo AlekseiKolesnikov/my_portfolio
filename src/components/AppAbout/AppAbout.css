@@ -25,6 +25,7 @@
     height: fit-content;
     text-align: left;
     gap: 10px;
+    animation: fade-in linear;
 
     .app-about__about-label {
         color: dodgerblue;
@@ -83,4 +84,9 @@
     to {
         transform: rotate(1turn);
     }
+}
+
+@keyframes fade-in {
+    from {scale: .8; opacity: 0;}
+    to {scale: 1; opacity: 1;}
 }

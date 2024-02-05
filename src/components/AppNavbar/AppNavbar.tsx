@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const AppNavbar = () => {
 
     return (
-        <nav className="nav space-between-row-center-flex">
+        <nav className="space-between-row-center-flex">
           <ul className="space-between-row-center-flex">
             <li>
               <Link to="/">Home</Link>
