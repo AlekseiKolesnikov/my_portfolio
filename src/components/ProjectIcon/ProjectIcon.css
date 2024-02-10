@@ -1,0 +1,51 @@
+.project-icon__wrapper {
+    position: relative;
+    width: 415px;
+    height: 250px;
+    background: dodgerblue;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+
+    h1 {
+        font: var(--heading-text);
+        color: dodgerblue;
+    }
+}
+
+.project-icon__hoover_style {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 415px;
+    height: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.project-icon__hoover-inf {
+    width: 100%;
+    height: fit-content;
+    padding: 25px;
+    gap: 8px;
+
+    h3, p {
+        color: white;
+        opacity: 0.7;
+    }
+
+    h3 {
+        font: var(--subheading-text-bigger);
+    }
+
+    p {
+        font: var(--subscript-text-bold);
+    }
+
+    img {
+        width: 35px;
+        height: 35px;
+    }
+}

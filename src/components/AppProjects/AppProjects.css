@@ -1,0 +1,30 @@
+.app-projects__wrapper {
+    width: 900px;
+    height: fit-content;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 40px;
+
+    .app-projects__label {
+        width: 100%;
+    }
+
+    h1 {
+        font: var(--main-text-bold);
+        color: dodgerblue;
+    }
+
+    p {
+        font: var(--subheading-text);
+        color: black;
+    }
+}
+
+.app-projects__projects-box {
+    width: 1000px;
+    height: fit-content;
+    gap: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

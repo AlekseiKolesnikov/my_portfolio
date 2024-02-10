@@ -65,8 +65,8 @@ export const AppProfile = () => {
                     </motion.div>
                     <div className="shape-container center-flex">
                         <motion.img
-                            initial={{ opacity: 0}}
-                            animate={{ opacity: 1}}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
                             transition={{ duration: 0.5 }}
                             style={{ width: 280, }}
                             src="./../../../src/assets/profile_img.png"
